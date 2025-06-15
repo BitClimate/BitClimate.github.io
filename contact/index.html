@@ -203,7 +203,7 @@ flexibility(document.documentElement);
 
 
 <div class="wp-block-uagb-forms uagb-forms__outer-wrap uagb-block-4d1604bb uagb-forms__medium-btn">
-  <form action="https://formsubmit.co/info@bitclimate.com" method="POST" class="uagb-forms-main-form" autocomplete="on" name="uagb-form-4d1604bb">
+  <form action="https://formsubmit.co/youremail@example.com" method="POST" class="uagb-forms-main-form" autocomplete="on" name="uagb-form-4d1604bb">
 
     <div class="wp-block-uagb-forms-name uagb-forms-name-wrap uagb-forms-field-set uagb-block-ce27f138">
       <div class="uagb-forms-name-label required uagb-forms-input-label" id="ce27f138">First Name</div>
@@ -220,16 +220,20 @@ flexibility(document.documentElement);
       <textarea required class="uagb-forms-textarea-input uagb-forms-input" rows="4" placeholder="Message" name="message" autocomplete="off"></textarea>
     </div>
 
-    <!-- Optional hidden fields -->
+    <!-- Optional: Hidden fields -->
     <input type="hidden" name="_captcha" value="false">
     <input type="hidden" name="_next" value="https://bitclimate.com/thank-you/">
 
     <div class="uagb-forms-main-submit-button-wrap wp-block-button">
-      <button type="submit" class="uagb-forms-main-submit-button wp-block-button__link">
-        <div class="uagb-forms-main-submit-button-text">Send Message</div>
-      </button>
+      <div class="wp-block-button__link uagb-forms-main-submit-button">
+        <button type="submit" class="uagb-forms-main-submit-button-text" style="all: unset; display: block; width: 100%; cursor: pointer; text-align: center;">
+          Send Message
+        </button>
+      </div>
     </div>
+
   </form>
+</div>
 
 
 
